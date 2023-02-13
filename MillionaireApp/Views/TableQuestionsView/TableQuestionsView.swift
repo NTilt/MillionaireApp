@@ -12,7 +12,6 @@ class TableQuestionsView: UIView {
     private let backgroundImageView = UIImageView()
     private let tableView = UITableView()
     private let logoImageView = UIImageView()
-    private var cellIndex = 1
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -86,8 +85,7 @@ extension TableQuestionsView: UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
         cell.selectionStyle = .default
-        cell.setQuestionNumberAndBackground(number: cellIndex)
-        cellIndex += 1
+        cell.setQuestionNumberAndBackground(number: indexPath.section + 1)
         cell.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
         return cell
     }
