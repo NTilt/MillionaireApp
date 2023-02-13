@@ -18,6 +18,9 @@
 		11814D942999087D00EF45B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11814D932999087D00EF45B0 /* ViewController.swift */; };
 		11814D992999087E00EF45B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11814D982999087E00EF45B0 /* Assets.xcassets */; };
 		11814D9C2999087E00EF45B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11814D9A2999087E00EF45B0 /* LaunchScreen.storyboard */; };
+		1196F81E299ADA5B00776010 /* TableQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196F81D299ADA5B00776010 /* TableQuestionsViewController.swift */; };
+		1196F821299ADADB00776010 /* TableQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196F820299ADADB00776010 /* TableQuestionsView.swift */; };
+		1196F823299ADB4700776010 /* TableQuestionsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196F822299ADB4700776010 /* TableQuestionsCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		11814D982999087E00EF45B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11814D9B2999087E00EF45B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11814D9D2999087E00EF45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1196F81D299ADA5B00776010 /* TableQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableQuestionsViewController.swift; sourceTree = "<group>"; };
+		1196F820299ADADB00776010 /* TableQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableQuestionsView.swift; sourceTree = "<group>"; };
+		1196F822299ADB4700776010 /* TableQuestionsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableQuestionsCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 				112006E729994711003F3B09 /* GreetingsViewController.swift */,
 				112006EE2999489F003F3B09 /* BaseController.swift */,
 				112006F5299A4215003F3B09 /* SelectNicknameController.swift */,
+				1196F81D299ADA5B00776010 /* TableQuestionsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -68,6 +75,7 @@
 		112006E929994795003F3B09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1196F81F299ADAC700776010 /* TableQuestionsView */,
 				112006EA2999479D003F3B09 /* GreetingsView */,
 				112006F9299A431E003F3B09 /* SelectNicknameView */,
 			);
@@ -136,6 +144,15 @@
 				11814D9D2999087E00EF45B0 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1196F81F299ADAC700776010 /* TableQuestionsView */ = {
+			isa = PBXGroup;
+			children = (
+				1196F820299ADADB00776010 /* TableQuestionsView.swift */,
+				1196F822299ADB4700776010 /* TableQuestionsCellView.swift */,
+			);
+			path = TableQuestionsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,12 +226,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				11814D942999087D00EF45B0 /* ViewController.swift in Sources */,
+				1196F823299ADB4700776010 /* TableQuestionsCellView.swift in Sources */,
+				1196F821299ADADB00776010 /* TableQuestionsView.swift in Sources */,
 				112006E829994712003F3B09 /* GreetingsViewController.swift in Sources */,
 				112006EF2999489F003F3B09 /* BaseController.swift in Sources */,
 				112006F8299A4314003F3B09 /* SelectNicknameView.swift in Sources */,
 				112006F6299A4215003F3B09 /* SelectNicknameController.swift in Sources */,
 				112006E529993F92003F3B09 /* Resources.swift in Sources */,
 				11814D902999087D00EF45B0 /* AppDelegate.swift in Sources */,
+				1196F81E299ADA5B00776010 /* TableQuestionsViewController.swift in Sources */,
 				11814D922999087D00EF45B0 /* SceneDelegate.swift in Sources */,
 				112006F129995036003F3B09 /* GreetingsView.swift in Sources */,
 			);
